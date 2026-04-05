@@ -7,7 +7,6 @@ import sqlite3
 st.set_page_config(layout="wide")
 st.title("Academic Insights Dashboard")
 conn = sqlite3.connect("Python_Project")
-
 df_performance = pd.read_sql("""
     SELECT student_id,student_name, AVG(grade_point) as avg_grade
     FROM marks
