@@ -45,7 +45,7 @@ with col1:
 with col2:
     st.markdown("""
     👤**Rohit Rejikumar**  
-    [LinkedIn](https://www.linkedin.com/in/ujwal-u-k-9428a6381/)
+    [LinkedIn](https://www.linkedin.com/in/rohit-rejikumar-7824b3384/)
     """)
 
 col3 , col4= st.columns(2)
@@ -53,7 +53,7 @@ col3 , col4= st.columns(2)
 with col3:
     st.markdown("""
     👤**Avinash Singh**  
-    @------
+    [LinkedIn](https://www.linkedin.com/in/avinash-kumar-singh-777263388/)
     """)
 
 with col4:
